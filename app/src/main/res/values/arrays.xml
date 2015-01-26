@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_nd_options">
+        <item>@string/pref_nd_5_label</item>
+        <item>@string/pref_nd_10_label</item>
+        <item>@string/pref_nd_15_label</item>
+        <item>@string/pref_nd_20_label</item>
+        <item>@string/pref_nd_25_label</item>
+        <item>@string/pref_nd_30_label</item>
+    </string-array>
+
+    <string-array name="pref_nd_values">
+        <item>@string/pref_nd_5</item>
+        <item>@string/pref_nd_10</item>
+        <item>@string/pref_nd_15</item>
+        <item>@string/pref_nd_20</item>
+        <item>@string/pref_nd_25</item>
+        <item>@string/pref_nd_30</item>
+    </string-array>
+</resources>

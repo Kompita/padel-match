@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="@string/pref_login_label"
+        android:key="@string/pref_login_key"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <EditTextPreference
+        android:title="@string/pref_password_label"
+        android:key="@string/pref_password_key"
+        android:inputType="textWebPassword"
+        android:singleLine="true"
+        android:password="true"
+        android:summary="*******"/>
+
+    <ListPreference
+        android:title="@string/pref_nd_label"
+        android:key="@string/pref_nd_key"
+        android:defaultValue="@string/pref_nd_10"
+        android:entryValues="@array/pref_nd_values"
+        android:entries="@array/pref_nd_options" />
+
+    <CheckBoxPreference
+        android:title="@string/pref_show_only_opened_label"
+        android:key="@string/pref_show_only_opened_key"
+        android:summaryOff="@string/pref_show_only_opened_false"
+        android:summaryOn="@string/pref_show_only_opened_true"
+        android:defaultValue="@string/pref_show_only_opened_default" />
+
+    <CheckBoxPreference
+        android:title="@string/pref_enable_notifications_label"
+        android:key="@string/pref_enable_notifications_key"
+        android:summaryOff="@string/pref_enable_notifications_false"
+        android:summaryOn="@string/pref_enable_notifications_true"
+        android:defaultValue="@string/pref_enable_notifications_default" />
+
+</PreferenceScreen>

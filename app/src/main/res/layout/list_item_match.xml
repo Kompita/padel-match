@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_selector">
+
+    <TextView
+        android:id="@+id/list_item_matches_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:text="Partido de los martes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+
+    <TextView
+        android:id="@+id/list_item_matches_date_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="Martes 12"
+        android:textSize="16sp"
+        android:layout_below="@+id/list_item_matches_name_textview"/>
+
+    <TextView
+        android:id="@+id/list_item_matches_time_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="19:30"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/list_item_matches_date_textview"
+        android:layout_below="@+id/list_item_matches_name_textview"
+        android:paddingLeft="5px"/>
+
+    <TextView
+        android:id="@+id/list_item_matches_duration_in_minutes_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="90 minutos"
+        android:layout_below="@+id/list_item_matches_date_textview"/>
+
+    <TextView
+        android:id="@+id/list_item_matches_location_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="Padelia"
+        android:layout_toRightOf="@+id/list_item_matches_duration_in_minutes_textview"
+        android:layout_below="@+id/list_item_matches_date_textview"
+        android:paddingLeft="5px"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_matches_icon_textview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_4players_with_me"
+        android:paddingRight="5px"/>
+
+
+</RelativeLayout>

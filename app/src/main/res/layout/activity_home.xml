@@ -1,0 +1,8 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/fragment_machesList"
+android:name="com.padelmatch.android.MatchesListFragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.padelmatch.android.MatchesListFragment"
+tools:layout="@android:layout/list_content" />

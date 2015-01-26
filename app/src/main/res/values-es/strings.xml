@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_nd_label">Numero de días a mostrar</string>
+    <string name="pref_nd_5_label">5 días</string>
+    <string name="pref_nd_30_label">30 días</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="pref_enable_notifications_false">Deshabilitadas</string>
+    <string name="pref_enable_notifications_label">Notificaciones de nuevos partidos</string>
+    <string name="pref_enable_notifications_true">Habilitadas</string>
+    <string name="pref_nd_10_label">10 días</string>
+    <string name="pref_nd_15_label">15 días</string>
+    <string name="pref_nd_20_label">20 días</string>
+    <string name="pref_nd_25_label">25 días</string>
+    <string name="title_activity_settings">Configuracion</string>
+    <string name="notification_text">Pincha aquí y juega al padel</string>
+    <string name="notification_label">partidos nuevos</string>
+    <string name="action_share">Compartir</string>
+    <string name="pref_show_only_opened_false">Deshabilitado</string>
+    <string name="pref_show_only_opened_label">Mostrar solo partidos abiertos</string>
+    <string name="pref_show_only_opened_true">Habilitado</string>
+    <string name="date_format">dd MMMMMM</string>
+    <string name="match_minutes">minutos</string>
+    <string name="players_label">JUGADORES</string>
+    <string name="title_activity_detail">Detalle</string>
+    <string name="unsubscribe_label">No conteis conmigo</string>
+    <string name="subscribe_label">¡Contad conmigo!</string>
+    <string name="action_map">Ver en mapa</string>
+</resources>
